@@ -57,7 +57,7 @@ int getfloat(double *var)
 		if (point_flag == 1 && c != '.') {
 			*var += (c - '0') / pow(10.0, power);
 			power += 1;
-		} else if (point_flag == 1 && c == '.') {
+		} else if (point_flag == 1 && c == '.') { // We have found more than one point in a number
 			return 0;
 		} else {
 			*var = 10 * (*var) + (c - '0');
