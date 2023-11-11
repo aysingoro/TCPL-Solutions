@@ -1,3 +1,11 @@
+/* Exercise 5-2. 
+ * Write getfloat, the floating-point analog of getint.
+ * What type does getfloat return as its function value?
+ * 
+ * getint accepts one parameter - pointer to some integer variable.
+ * It reads next integer from input and stores it in this variable.
+ */
+
 #include <stdio.h>
 #include <ctype.h>
 #include <math.h>
